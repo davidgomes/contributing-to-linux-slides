@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Contribuição no ecossistema Linux</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="David Gomes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>Contributing to the Linux ecosystem</h1>
+
+          <small>(or short stories from my past)</small>
+          
+          <p>
+            <small><a href="http://twitter.com/davidrfgomes">@davidrfgomes</a></small>
+          </p>
+        </section>
+
+        <section>
+          <h2>What can contributing be?</h2>
+
+          <ul>
+            <li>Translating</li>
+            <li>Writing about it (guides, reviews, articles...)</li>
+            <li>User support (IRC, Forums, ...)</li>
+            <li>Bug fixing</li>
+            <li>Bug reporting</li>
+            <li>Donating</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h1>How it all started</h1>
+
+          <img src="img/omgubuntuarticle.png"/>
+        </section>
+        
+        <section>
+          <p>Obrigado.</p>
+
+          <small style="margin-top: 70px;"><a href="http://davidgom.es">http://davidgom.es</a></small>
+          <p></p>
+          <small style="margin-top: 20px;"><a href="http://twitter.com/davidrfgomes">@davidrfgomes</a></small>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+     // Full list of configuration options available at:
+     // https://github.com/hakimel/reveal.js#configuration
+     Reveal.initialize({
+         controls: true,
+         progress: true,
+         history: true,
+         center: true,
+
+         transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+         // Optional reveal.js plugins
+         dependencies: [
+             { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+             { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+             { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+             { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+             { src: 'plugin/zoom-js/zoom.js', async: true },
+             { src: 'plugin/notes/notes.js', async: true }
+         ]
+     });
+
+    </script>
+
+  </body>
+</html>
