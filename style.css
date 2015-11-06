@@ -1,3 +1,12 @@
+.reveal p {
+  margin: 0;
+  line-height: 1.0;
+}
+
+.space-180px {
+  height: 180px;
+}
+
 .slides section * {
   font-family: 'Roboto', serif;
 }
